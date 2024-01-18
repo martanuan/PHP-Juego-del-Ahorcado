@@ -47,5 +47,5 @@ http://localhost/juego-ahorcado-php
 
 Este proyecto utiliza la [Licencia MIT](LICENSE), lo que significa que tienes la libertad de usar, modificar y compartir el software de forma gratuita.
 
-##Autora
+## Autora 💻
 <a href="https://github.com/martanuan">Marta Nuñez</a>
