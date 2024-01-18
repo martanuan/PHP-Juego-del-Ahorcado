@@ -37,7 +37,7 @@ http://localhost/juego-ahorcado-php
 - **ahorcado.php**: Clase principal que maneja la lógica del juego.
 - **palabras.php**: Archivo que contiene la lista de palabras para el juego.
 
-## Contribuciones 	:handshake:
+## Contribuciones :handshake:
 
 ¡Contribuciones son bienvenidas! Si encuentras algún error o tienes ideas para mejorar el juego, no dudes en abrir un problema o enviar una solicitud de extracción.
 
