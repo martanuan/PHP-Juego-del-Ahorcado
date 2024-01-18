@@ -1,6 +1,6 @@
 # Juego del Ahorcado en PHP :joystick:
 
-Bienvenido al Juego del Ahorcado desarrollado en PHP. Este simple juego de palabras te desafiará a adivinar la palabra oculta antes de que se complete la figura del ahorcado. ¡Buena suerte!
+Bienvenid@ al Juego del Ahorcado desarrollado en PHP. Este simple juego de palabras te desafiará a adivinar la palabra oculta antes de que se complete la figura del ahorcado. ¡Buena suerte!
 
 ## Requisitos :building_construction:
 
@@ -31,11 +31,13 @@ http://localhost/juego-ahorcado-php
 4. Tienes un número limitado de intentos antes de que se complete la figura del ahorcado.
 5. Trata de adivinar la palabra antes de quedarte sin intentos.
 
-## Estructura del proyecto
+## Tecnologías utilizadas
 
-- **index.php**: Página principal que inicia el juego y muestra la interfaz.
-- **ahorcado.php**: Clase principal que maneja la lógica del juego.
-- **palabras.php**: Archivo que contiene la lista de palabras para el juego.
+<p>
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=html,css,php,git,github" />
+  </a>
+</p>
 
 ## Contribuciones :handshake:
 
@@ -45,4 +47,5 @@ http://localhost/juego-ahorcado-php
 
 Este proyecto utiliza la [Licencia MIT](LICENSE), lo que significa que tienes la libertad de usar, modificar y compartir el software de forma gratuita.
 
-¡Esperamos que disfrutes del Juego del Ahorcado en PHP!
+##Autora
+<a href="https://github.com/martanuan">Marta Nuñez</a>
