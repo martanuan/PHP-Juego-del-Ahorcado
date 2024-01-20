@@ -1,7 +1,6 @@
 <?php
 
 session_start();
-
 class Ahorcado{
 
     private $palabraSecreta;
@@ -28,13 +27,16 @@ class Ahorcado{
     public function getPalabraEnCurso(){
         $palabraAdivinada = '';
         foreach (str_split($this->palabraSecreta) as $letra){
-            if ($this->letrasAdivinadas[$letras]){
+            if ($this->letrasAdivinadas[$letra]){
                 $palabraAdivinada .= $letra;
             }else {
                 $palabraAdivinada .= '_ ';
             }
         }
         return $palabraAdivinada;
+    }
+
+}
 
 
 
