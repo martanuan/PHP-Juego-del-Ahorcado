@@ -1,9 +1,6 @@
 <?php
-
-include("ahorcadoClass.php");
-
-//Iniciamos la sesión
 session_start();
+include("ahorcadoClass.php");
 
 //Array de palabras disponibles
 $palabrasDisponibles = ["programación", "php", "javascript", "factoria", "desarrollo", "fullstack", "logica", "programadoras", "coders", "trabajar"];
@@ -14,7 +11,6 @@ include("formAndSession.php");
 $juegoTerminado = $juego->juegoTerminado();
 ?>
 
-?>
 <!DOCTYPE html>
 <html lang="es">
 <head>
