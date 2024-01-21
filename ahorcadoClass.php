@@ -12,7 +12,7 @@ class Ahorcado{
         $this->intentos = 0;
         $this->maxIntentos = 7;
         $this->letrasAdivinadas = [];
-        $this->palabrasDisponibles = ["programación", "php", "javascript", "factoria", "desarrollo", "fullstack", "logica", "programadoras", "coders", "trabajar"];
+        $this->palabrasDisponibles = ["programacion", "php", "javascript", "factoria", "desarrollo", "fullstack", "logica", "programadoras", "coders", "trabajar"];
         $this->iniciarJuego();
     }
 

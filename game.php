@@ -18,8 +18,11 @@ $juegoTerminado = $juego->juegoTerminado();
 </head>
 <body>
 
-<h1><?php echo $_SESSION["nombreJugador"] ?> vas a jugar al Ahorcado</h1>
-
+<?php
+if($juego->getIntentos() !==$juego->getMaxIntentos() ||
+$juego->getPalabraEnCurso() == $juego->getPalabraSecreta()){ ?>
+    <h1><?php echo $_SESSION["nombreJugador"] ?> vas a jugar al Ahorcado</h1>
+<?php } ?>
 <?php
 if ($juegoTerminado) {
     include("endgame.php");
@@ -43,7 +46,9 @@ if ($juegoTerminado) {
 }
 ?>
 <br/>
-
+<?php
+include("muestraEstadoJuego.php");
+?>
 
 </body>
 </html>
