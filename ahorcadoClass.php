@@ -36,6 +36,28 @@ class Ahorcado{
         return $palabraAdivinada;
     }
 
+    public function getIntentos(){
+        return $this->intentos;
+    }
+
+    public function intento($letra) {
+        $letra = strtolower($letra);
+
+        //Verificamos si la letra ya fue intentada
+        if (array_key_exists($letra, $this->letrasAdivinadas) && !$this->letrasAdivinadas[$letra]){
+            $this->letrasAdivinadas[$letra] = true;
+        }
+        //Verificamos si la letra está en la palabra
+        if(strpos($this->palabraSecreta, $letra) === false){
+            if($this->intentos < 7);
+            $this->intentos++;
+        }
+    }
+
+    public function juegoTerminado(){
+        return ($this->intentos >= 7) || ($this->getPalabraEnCurso() === $this->palabraSecreta);
+    }
+
 }
 
 
