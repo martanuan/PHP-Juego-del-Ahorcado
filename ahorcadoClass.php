@@ -3,11 +3,16 @@ class Ahorcado{
 
     private $palabraSecreta = '';
     private $intentos = 0;
+    private $maxIntentos = 0;
     private $letrasAdivinadas = [];
     private $palabrasDisponibles = [];
 
-    public function __construct($palabrasDisponibles){
-        $this->palabrasDisponibles = $palabrasDisponibles;
+    public function __construct(){
+        $this->palabraSecreta = '';
+        $this->intentos = 0;
+        $this->maxIntentos = 7;
+        $this->letrasAdivinadas = [];
+        $this->palabrasDisponibles = ["programación", "php", "javascript", "factoria", "desarrollo", "fullstack", "logica", "programadoras", "coders", "trabajar"];
         $this->iniciarJuego();
     }
 
@@ -38,6 +43,10 @@ class Ahorcado{
         return $this->intentos;
     }
 
+    public function getMaxIntentos(){
+        return $this->maxIntentos;
+    }
+
     public function intento($letra) {
         $letra = strtolower($letra);
 
@@ -47,13 +56,13 @@ class Ahorcado{
         }
         //Verificamos si la letra está en la palabra
         if(strpos($this->palabraSecreta, $letra) === false){
-            if($this->intentos < 7);
+            if($this->intentos < $this->maxIntentos);
             $this->intentos++;
         }
     }
 
     public function juegoTerminado(){
-        return ($this->intentos >= 7) || ($this->getPalabraEnCurso() === $this->palabraSecreta);
+        return ($this->intentos >= $this->maxIntentos) || ($this->getPalabraEnCurso() === $this->palabraSecreta);
     }
 
 }

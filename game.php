@@ -1,9 +1,7 @@
 <?php
-session_start();
-include("ahorcadoClass.php");
 
-//Array de palabras disponibles
-$palabrasDisponibles = ["programación", "php", "javascript", "factoria", "desarrollo", "fullstack", "logica", "programadoras", "coders", "trabajar"];
+include("ahorcadoClass.php");
+session_start();
 
 include("formAndSession.php");
 
@@ -45,16 +43,7 @@ if ($juegoTerminado) {
 }
 ?>
 <br/>
-<?php 
-if($juego->getPalabraEnCurso() === $juego->getPalabraSecreta()) {
-    echo "<img src='img/winner.png' style='height:200px;' />";
-} 
-?>
-<?php 
-if ($juego->getIntentos() > 0 && $juego->getPalabraEnCurso() !== $juego->getPalabraSecreta()) {
-    echo "<img src='img/ahorcado_" . $juego->getIntentos() . ".png' style='height:200px;' />";
-} 
-?>
+
 
 </body>
 </html>
