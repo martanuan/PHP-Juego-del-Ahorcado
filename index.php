@@ -14,10 +14,9 @@
         <form method= "POST" action="game.php">
             Introduce tu nombre:
             <input type="hidden" name="reiniciar" />
-            <input class="nombreJugador" type="text" name="nombreJugador" />
+            <input class="nombreJugador" type="text" name="nombreJugador" autocomplete="off" />
             <input class="btnJuego" type="submit" value="Vamos a jugar" />
         </form>
     </div>
-
 </body>
 </html>
