@@ -8,7 +8,7 @@ session_start();
 //Array de palabras disponibles
 $palabrasDisponibles = ["programación", "php", "javascript", "factoria", "desarrollo", "fullstack", "logica", "programadoras", "coders", "trabajar"];
 
-//Meter aqui include de formAndSessions
+include("formAndSession.php");
 
 // Verificar si se ha adivinado la palabra o se han agotado los intentos
 $juegoTerminado = $juego->juegoTerminado();
