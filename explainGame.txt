@@ -17,3 +17,11 @@
 5. Creamos una función que nos retorne el estado de adivinación de la palabra. Letras acertadas visible, no acertadas aparecerá un _
     Convertimos a arrya la palabra secretra y recorremos cada uno de sus caracteres, se verifica el array de booleanos, true->muestra letra, false->muestra _
     str_split -> convierte string a array
+
+6. Creamos una función que retorna el número de intentos que llevamos en el juego
+
+7. Creamos una función para invocarla cada vez que introducimos una nueva letra para adivinar. (strpos-> te da la posición/false:si no está la letra)
+
+8. Creamos una función para cuando terminamos el juego. Dos opciones:
+    -Ganas-> $this->palabraEnCurso() === $this->palabraSecreta ---> Aciertas palabra y ganas
+    -Pierdes-> $this->intento >= 7  ---> superas máximos de intentos sin adivinar palabras, pierdes.
