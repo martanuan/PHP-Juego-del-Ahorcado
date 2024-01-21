@@ -20,8 +20,8 @@ $juegoTerminado = $juego->juegoTerminado();
 <body>
 
 <?php
-if($juego->getIntentos() !==$juego->getMaxIntentos() ||
-$juego->getPalabraEnCurso() == $juego->getPalabraSecreta()){ ?>
+if($juego->getIntentos() !==$juego->getMaxIntentos() &&
+$juego->getPalabraEnCurso() !== $juego->getPalabraSecreta()){ ?>
     <h1><?php echo $_SESSION["nombreJugador"] ?> vas a jugar al Ahorcado</h1>
 <?php } ?>
 <?php
@@ -29,7 +29,7 @@ if ($juegoTerminado) {
     include("endgame.php");
 ?>
     <form method="post" action="">
-        <button type="button" name="reiniciar" onclick='window.location.href="index.php"'>Reiniciar Juego</button>
+        <button class="btnJuego" type="button" name="reiniciar" onclick='window.location.href="index.php"'>Reiniciar Juego</button>
     </form>
 <?php 
 } else {
@@ -39,9 +39,9 @@ if ($juegoTerminado) {
 
     <form method="post" action="">
         <label for="letra">Introduce una letra:</label>
-        <input type="text" id="letra" name="letra" maxlength="1" pattern="[a-zA-ZñÑ]" autofocus><!--  required -->
-        <button type="submit">Adivinar</button>
-        <button type="button" name="reiniciar" onclick='window.location.href="index.php"'>Reiniciar Juego</button>
+        <input class="nombreJugador" type="text" id="letra" name="letra" maxlength="1" pattern="[a-zA-ZñÑ]" autofocus autocomplete="off"><!--  required -->
+        <button class="btnJuego" type="submit">Adivinar</button>
+        <button class="btnJuego" type="button" name="reiniciar" onclick='window.location.href="index.php"'>Reiniciar Juego</button>
     </form>
 <?php 
 }
