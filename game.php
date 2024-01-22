@@ -17,7 +17,7 @@ $juegoTerminado = $juego->juegoTerminado();
     <link rel="stylesheet" href="style.css">
     <title>Juego del Ahorcado</title>
 </head>
-<body>
+<body class="welcome">
 
 <?php
 if($juego->getIntentos() !==$juego->getMaxIntentos() &&
