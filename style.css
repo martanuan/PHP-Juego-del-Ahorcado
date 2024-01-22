@@ -1,0 +1,44 @@
+* {
+    font-family: cursive;
+    background-color: lightcyan;
+}
+
+h1{
+    text-align: center;
+    color: lightcoral
+}
+
+.portada{
+    width: 20%;
+    height: 20%;
+    margin-top: 20px;
+    margin-left: 40% ;
+    border-radius: 20px;
+    box-shadow: 10px 10px 15px rgba(238, 143, 114, 0.877);
+
+}
+
+.welcome{
+    margin-top: 40px;
+    text-align: center;
+    color: lightcoral;
+
+}
+
+.nombreJugador{
+    background-color: white;
+    border-radius: 20px;
+    height: 30px;
+}
+
+.btnJuego{
+    background-color: lightcoral;
+    color: white;
+    border-radius: 20px;
+    padding: 15px;
+    cursor: pointer;
+}
+
+.btnJuego:hover{
+    background-color: darkturquoise;
+}
