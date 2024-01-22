@@ -1,4 +1,3 @@
-```markdown
 # 🎮 Juego del Ahorcado en PHP
 
 ¡Bienvenido al Juego del Ahorcado desarrollado en PHP! Este proyecto te permite disfrutar del clásico juego del ahorcado con una implementación interactiva y dinámica.
