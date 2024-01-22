@@ -42,4 +42,4 @@ Este proyecto está bajo la Licencia MIT. Consulta el archivo [LICENSE](LICENSE)
 
 ## 👩‍💻 Autora
 
-Este juego del ahorcado fue creado con ❤️ por <a href="https://github.com/martanuan" target="_blank">Marta Nuñezx</a>. ¡Gracias!
+Este juego del ahorcado fue creado con ❤️ por <a href="https://github.com/martanuan" target="_blank">Marta Nuñez</a>. ¡Gracias!
