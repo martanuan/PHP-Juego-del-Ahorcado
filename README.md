@@ -1,12 +1,12 @@
-# Juego del Ahorcado en PHP
+🎮 # Juego del Ahorcado en PHP
 
 ¡Bienvenido al Juego del Ahorcado desarrollado en PHP! Este proyecto te permite disfrutar del clásico juego del ahorcado con una implementación interactiva y dinámica.
 
-## Requisitos Previos
+📋 ## Requisitos Previos
 
 Antes de comenzar, asegúrate de tener instalado [XAMPP](https://www.apachefriends.org/index.html) en tu sistema. XAMPP proporciona un entorno de desarrollo que incluye Apache, MySQL, PHP y Perl. Además, verifica que PHP esté instalado en tu sistema.
 
-## Instalación
+🚀 ## Instalación
 
 1. **Clona el Repositorio:**
    ```bash
@@ -28,7 +28,7 @@ Antes de comenzar, asegúrate de tener instalado [XAMPP](https://www.apachefrien
 5. **Instala PHP:**
    Asegúrate de tener PHP instalado en tu sistema. Puedes obtener la última versión de PHP en [php.net](https://www.php.net/).
 
-## Cómo Jugar
+🎮 ## Cómo Jugar
 
 1. Abre el juego en tu navegador.
 2. Ingresa tu nombre en el formulario de inicio y haz clic en "Iniciar Juego".
@@ -36,11 +36,10 @@ Antes de comenzar, asegúrate de tener instalado [XAMPP](https://www.apachefrien
 4. Visualiza el resultado en la pantalla de finalización con imágenes representativas de victoria o derrota.
 5. Opciones para reiniciar el juego estarán disponibles en la pantalla de finalización.
 
-## Licencia
+📄 ## Licencia
 
 Este proyecto está bajo la Licencia MIT. Consulta el archivo [LICENSE](LICENSE) para obtener más detalles.
 
-##Autora
-## Autora
+👩‍💻 ## Autora
 
 Este juego del ahorcado fue creado con ❤️ por <a href="https://github.com/martanuan" target="_blank">Marta Nuñezx</a>. ¡Gracias!
